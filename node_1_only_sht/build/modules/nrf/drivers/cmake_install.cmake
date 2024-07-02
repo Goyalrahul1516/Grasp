@@ -39,26 +39,26 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/nrf/drivers/sensor/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/nrf/drivers/sensor/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/nrf/drivers/mpsl/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/nrf/drivers/mpsl/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/nrf/drivers/hw_cc3xx/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/nrf/drivers/hw_cc3xx/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/nrf/drivers/entropy/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/nrf/drivers/entropy/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/nrf/drivers/serial/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/nrf/drivers/serial/cmake_install.cmake")
 endif()
 

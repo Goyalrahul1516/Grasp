@@ -982,7 +982,7 @@ arduino_spi: &spi2 {
  };
 };
 # 0 "<command-line>" 2
-# 1 "c:/ncs/v2.6.1/zephyr/samples/basic/sht408/nrf52dk_nrf52832.overlay" 1
+# 1 "C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/nrf52dk_nrf52832.overlay" 1
 
 
 &pinctrl {

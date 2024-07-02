@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/zephyr/soc/common/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/zephyr/soc/common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/zephyr/soc/soc/arm/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/zephyr/soc/soc/arm/cmake_install.cmake")
 endif()
 

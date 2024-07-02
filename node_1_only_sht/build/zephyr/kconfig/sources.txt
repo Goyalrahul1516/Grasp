@@ -1615,11 +1615,11 @@ C:\ncs\v2.6.1\zephyr\modules\trusted-firmware-m\Kconfig.tfm.crypto_modules
 C:\ncs\v2.6.1\zephyr\modules\trusted-firmware-m\Kconfig.tfm.partitions
 C:\ncs\v2.6.1\zephyr\modules\uoscore-uedhoc\Kconfig
 C:\ncs\v2.6.1\zephyr\modules\zcbor\Kconfig
-C:\ncs\v2.6.1\zephyr\samples\basic\sht408\Kconfig
-C:\ncs\v2.6.1\zephyr\samples\basic\sht408\build\Kconfig\Kconfig.dts
-C:\ncs\v2.6.1\zephyr\samples\basic\sht408\build\Kconfig\Kconfig.modules
-C:\ncs\v2.6.1\zephyr\samples\basic\sht408\build\Kconfig\Kconfig.shield
-C:\ncs\v2.6.1\zephyr\samples\basic\sht408\build\Kconfig\Kconfig.shield.defconfig
+C:\ncs\v2.6.1\zephyr\project\node_1_only_sht\Kconfig
+C:\ncs\v2.6.1\zephyr\project\node_1_only_sht\build\Kconfig\Kconfig.dts
+C:\ncs\v2.6.1\zephyr\project\node_1_only_sht\build\Kconfig\Kconfig.modules
+C:\ncs\v2.6.1\zephyr\project\node_1_only_sht\build\Kconfig\Kconfig.shield
+C:\ncs\v2.6.1\zephyr\project\node_1_only_sht\build\Kconfig\Kconfig.shield.defconfig
 C:\ncs\v2.6.1\zephyr\soc\Kconfig
 C:\ncs\v2.6.1\zephyr\soc\arm\Kconfig
 C:\ncs\v2.6.1\zephyr\soc\arm\ambiq\Kconfig

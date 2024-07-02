@@ -39,231 +39,231 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/zephyr/arch/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/zephyr/arch/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/zephyr/lib/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/zephyr/lib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/zephyr/soc/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/zephyr/soc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/zephyr/boards/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/zephyr/boards/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/zephyr/subsys/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/zephyr/subsys/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/zephyr/drivers/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/zephyr/drivers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/nrf/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/nrf/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/mcuboot/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/mcuboot/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/mbedtls/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/mbedtls/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/trusted-firmware-m/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/trusted-firmware-m/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/cjson/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/cjson/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/azure-sdk-for-c/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/azure-sdk-for-c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/cirrus-logic/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/cirrus-logic/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/openthread/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/openthread/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/memfault-firmware-sdk/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/memfault-firmware-sdk/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/canopennode/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/canopennode/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/chre/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/chre/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/lz4/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/lz4/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/nanopb/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/nanopb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/zscilib/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/zscilib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/cmsis/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/cmsis/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/cmsis-dsp/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/cmsis-dsp/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/cmsis-nn/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/cmsis-nn/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/fatfs/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/fatfs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/hal_nordic/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/hal_nordic/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/st/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/st/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/hal_wurthelektronik/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/hal_wurthelektronik/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/libmetal/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/libmetal/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/liblc3/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/liblc3/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/littlefs/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/littlefs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/loramac-node/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/loramac-node/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/lvgl/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/lvgl/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/mipi-sys-t/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/mipi-sys-t/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/nrf_hw_models/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/nrf_hw_models/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/open-amp/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/open-amp/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/picolibc/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/picolibc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/segger/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/segger/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/tinycrypt/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/tinycrypt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/uoscore-uedhoc/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/uoscore-uedhoc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/zcbor/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/zcbor/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/nrfxlib/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/nrfxlib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/modules/connectedhomeip/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/modules/connectedhomeip/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/zephyr/kernel/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/zephyr/kernel/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/zephyr/cmake/flash/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/zephyr/cmake/flash/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/zephyr/cmake/usage/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/zephyr/cmake/usage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/zephyr/cmake/reports/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/zephyr/cmake/reports/cmake_install.cmake")
 endif()
 

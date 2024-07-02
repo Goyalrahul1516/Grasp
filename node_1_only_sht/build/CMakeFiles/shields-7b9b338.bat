@@ -1,5 +1,5 @@
 @echo off
-cd /D C:\ncs\v2.6.1\zephyr\samples\basic\sht408\build || (set FAIL_LINE=2& goto :ABORT)
+cd /D C:\ncs\v2.6.1\zephyr\project\node_1_only_sht\build || (set FAIL_LINE=2& goto :ABORT)
 C:\ncs\toolchains\cf2149caf2\opt\bin\cmake.exe -E echo adafruit_2_8_tft_touch_v2 || (set FAIL_LINE=3& goto :ABORT)
 C:\ncs\toolchains\cf2149caf2\opt\bin\cmake.exe -E echo adafruit_2_8_tft_touch_v2_nano || (set FAIL_LINE=4& goto :ABORT)
 C:\ncs\toolchains\cf2149caf2\opt\bin\cmake.exe -E echo adafruit_can_picowbell || (set FAIL_LINE=5& goto :ABORT)

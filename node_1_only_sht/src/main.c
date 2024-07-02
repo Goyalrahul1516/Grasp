@@ -148,10 +148,11 @@ void start_adv(void)
   printk("done.\n");                                                      // Print a message indicating the completion of extended advertising start
 
   // enter sleep mode after advertising
-  k_msleep(1000);                                           // Delay execution for 100 milliseconds
+  k_msleep(50);                                           // Delay execution for 100 milliseconds
   gpio_pin_toggle_dt(&led);                               // Toggle the state of the LED
   bt_le_ext_adv_stop(adv);                               // Stop extended advertising
   printk("Stopped advertising..!!\n");                   // Print a message indicating the cessation of advertising
+  k_msleep(2000);
   fetch_temp_data();                                     // Fetch temperature data
 
 }

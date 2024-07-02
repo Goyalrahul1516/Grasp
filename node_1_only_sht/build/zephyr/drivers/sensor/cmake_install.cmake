@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/zephyr/drivers/sensor/sht4x/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/zephyr/drivers/sensor/sht4x/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/sht408/build/zephyr/drivers/sensor/nrf5/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/node_1_only_sht/build/zephyr/drivers/sensor/nrf5/cmake_install.cmake")
 endif()
 
