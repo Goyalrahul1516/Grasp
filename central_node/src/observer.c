@@ -178,13 +178,13 @@ static int app_uart_send(const uint8_t * data_ptr, uint32_t data_len)
 
 					char formatted_string[128];
 					snprintf(formatted_string, sizeof(formatted_string), 
-							"AT+QMTPUBEX=0,0,0,0,\"channels/2588719/publish\",68\r\nfield1=%d&field2=%d&field3=%d&field4=%d&field5=%d&status=MQTTPUBLISH\r\n", 
-							write_array[1], write_array[2], write_array[3], write_array[4], write_array[0]
+							"AT+QMTPUBEX=0,0,0,0,\"channels/2588719/publish\",68\r\nfield5=%d&field1=%d&field2=%d&field3=%d&field4=%d&status=MQTTPUBLISH\r\n", 
+							write_array[0], write_array[1], write_array[2], write_array[3], write_array[4]
 					);
 					app_uart_send((const uint8_t *)formatted_string, strlen(formatted_string));
 
 			}
-    		}
+    	}
 		return true;
 	}
 

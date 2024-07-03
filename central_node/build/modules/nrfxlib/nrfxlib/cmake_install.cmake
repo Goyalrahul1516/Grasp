@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/shtreceivergsm/build/modules/nrfxlib/nrfxlib/crypto/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/central_node/build/modules/nrfxlib/nrfxlib/crypto/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/shtreceivergsm/build/modules/nrfxlib/nrfxlib/softdevice_controller/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/central_node/build/modules/nrfxlib/nrfxlib/softdevice_controller/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/v2.6.1/zephyr/samples/basic/shtreceivergsm/build/modules/nrfxlib/nrfxlib/mpsl/cmake_install.cmake")
+  include("C:/ncs/v2.6.1/zephyr/project/central_node/build/modules/nrfxlib/nrfxlib/mpsl/cmake_install.cmake")
 endif()
 

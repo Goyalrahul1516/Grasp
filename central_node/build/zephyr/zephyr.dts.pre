@@ -982,7 +982,7 @@ arduino_spi: &spi2 {
  };
 };
 # 0 "<command-line>" 2
-# 1 "C:/ncs/v2.6.1/zephyr/samples/basic/shtreceivergsm/nrf52dk_nrf52832.overlay" 1
+# 1 "C:/ncs/v2.6.1/zephyr/project/central_node/nrf52dk_nrf52832.overlay" 1
 &pinctrl {
  uart0_default: uart0_default {
   group1 {

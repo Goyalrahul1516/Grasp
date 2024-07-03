@@ -1616,10 +1616,10 @@ C:\ncs\v2.6.1\zephyr\modules\trusted-firmware-m\Kconfig.tfm.crypto_modules
 C:\ncs\v2.6.1\zephyr\modules\trusted-firmware-m\Kconfig.tfm.partitions
 C:\ncs\v2.6.1\zephyr\modules\uoscore-uedhoc\Kconfig
 C:\ncs\v2.6.1\zephyr\modules\zcbor\Kconfig
-C:\ncs\v2.6.1\zephyr\samples\basic\shtreceivergsm\build\Kconfig\Kconfig.dts
-C:\ncs\v2.6.1\zephyr\samples\basic\shtreceivergsm\build\Kconfig\Kconfig.modules
-C:\ncs\v2.6.1\zephyr\samples\basic\shtreceivergsm\build\Kconfig\Kconfig.shield
-C:\ncs\v2.6.1\zephyr\samples\basic\shtreceivergsm\build\Kconfig\Kconfig.shield.defconfig
+C:\ncs\v2.6.1\zephyr\project\central_node\build\Kconfig\Kconfig.dts
+C:\ncs\v2.6.1\zephyr\project\central_node\build\Kconfig\Kconfig.modules
+C:\ncs\v2.6.1\zephyr\project\central_node\build\Kconfig\Kconfig.shield
+C:\ncs\v2.6.1\zephyr\project\central_node\build\Kconfig\Kconfig.shield.defconfig
 C:\ncs\v2.6.1\zephyr\soc\Kconfig
 C:\ncs\v2.6.1\zephyr\soc\arm\Kconfig
 C:\ncs\v2.6.1\zephyr\soc\arm\ambiq\Kconfig
