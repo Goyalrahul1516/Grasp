@@ -8,15 +8,15 @@
 
 **Modules** 
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.001.jpeg)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.001.jpeg)
 
 Fig: BLE Node nRF52dk\_nRF52832 (SHT40 Embedded) 
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.002.jpeg)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.002.jpeg)
 
 Fig: BLE Kit nRF52dk\_nRF52832 
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.003.jpeg)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.003.jpeg)
 
 Fig: GSM Module QUECTEL EC200U-CN **Connections** 
 
@@ -67,7 +67,7 @@ Gnd  Gnd
 
 ` `"AT+QMTCONN=0,\"<ClientID>\",\"<Username>\",\"<password>\"\r\n" 
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.004.png)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.004.png)
 
 Fig: Change credentials in observer.c of Central node 
 
@@ -83,7 +83,7 @@ Eg: AT+QMTPUBEX=0,0,0,0,\"channels/2342344/publish\",68\r\nfield5=%d&field1=%d&f
 
 Here <payload\_length> is length of string “field1=%d&field2=%d& status=MQTTPUBLISH” and 68 is the length of “field5=%d&field1=%d&field2=%d&field3=%d&field4=%d&status=MQTTPUBLISH” 
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.005.png)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.005.png)
 
 Fig: Change channel ID in observer.c of central node 
 
@@ -92,25 +92,25 @@ Fig: Change channel ID in observer.c of central node
 1. **SIGNUP to thingspeak using university account if available** 
 1. **Create a new channel** 
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.006.jpeg)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.006.jpeg)
 
 3. **Go to devices > MQTT > Create a new device > add this channel to that device**  
 3. **Give Publish and subscribe permissions** 
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.007.png)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.007.png)
 
 5. **After Adding the device , you will get the following credentials , download them.**  
 5. **These will be used in the AT commands mentioned and similarly in the code** 
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.008.png)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.008.png)
 
 This is how your channel would look like 
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.009.jpeg)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.009.jpeg)
 
 7. **Click on the private button** 
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.010.jpeg)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.010.jpeg)
 
 **This channel ID will also be used while publishing to MQTT You can add widgets to your dashboard too** 
 
@@ -120,7 +120,7 @@ This is how your channel would look like
 
 My analysis code 
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.011.jpeg)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.011.jpeg)
 
 ***Note: You need to learn about read and write Api keys of Thingspeak channels and how they work, in this code the api\_key used is a write one which writes data to field number 6 channel*** 
 
@@ -129,32 +129,32 @@ See this to know more :[ https://in.mathworks.com/help/thingspeak/matlab-analysi
 2. **Create an event identifier to check incoming data at regular intervals using React app** 
 1. Open apps section and choose react** 
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.012.jpeg)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.012.jpeg)
 
 2. Create new react**  
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.013.jpeg)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.013.jpeg)
 
 3. Enter all necessary details for the react app to activate and call the analysis code, then save the app** 
 
 see this[ https://in.mathworks.com/help/thingspeak/react-app.html** ](https://in.mathworks.com/help/thingspeak/react-app.html)
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.014.jpeg)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.014.jpeg)
 
 **To see data you can**  
 
 1. **use the visualizations** 
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.015.jpeg)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.015.jpeg)
 
 2. **Use python script to fetch data and save in csv file**  
 
 **Code :[ https://github.com/Goyalrahul1516/Grasp/blob/main/mqtt.py** ](https://github.com/Goyalrahul1516/Grasp/blob/main/mqtt.py)**
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.016.jpeg)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.016.jpeg)
 
 3. **Use MATLAB**  
 
 **Code :[ https://github.com/Goyalrahul1516/Grasp/blob/main/data_fetch.m** ](https://github.com/Goyalrahul1516/Grasp/blob/main/data_fetch.m)**
 
-![](Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.017.jpeg)
+![](images/Aspose.Words.56cf22ad-9580-4d04-80e6-7a0935641acf.017.jpeg)
