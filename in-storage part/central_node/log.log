@@ -1,0 +1,1288 @@
+[2024-Aug-30 12:53:02] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:02] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:02] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:02] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:02] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:02] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:02] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:02] [debug] [ Client] - open
+[2024-Aug-30 12:53:02] [debug] [ Client] - start
+[2024-Aug-30 12:53:02] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence c9a2e6dc-e1ca-47c2-9589-51185078e9b8.
+[2024-Aug-30 12:53:02] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:02] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:02] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:02] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:02] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:02] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:02] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:02] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:02] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:02] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:02] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:02] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:02] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 12:53:02] [trace] [ Client] - Command open executed for 40 milliseconds with result 0
+[2024-Aug-30 12:53:02] [debug] [ Client] - config
+[2024-Aug-30 12:53:02] [trace] [ Client] - Command config executed for 14 milliseconds with result 0
+[2024-Aug-30 12:53:02] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:02] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:02] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:02] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:02] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:02] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:02] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:02] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:02] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:02] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:02] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:02] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:02] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:02] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:02] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:02] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:02] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:02] [trace] [ Client] - Command close executed for 32 milliseconds with result 0
+[2024-Aug-30 12:53:02] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:02] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:02] [trace] [ Worker] - Command close executed for 16 milliseconds with result 0
+[2024-Aug-30 12:53:02] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:02] [trace] [ Worker] - Executed 5 commands for 25 milliseconds
+[2024-Aug-30 12:53:02] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:02] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:02] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:02] [trace] [ Client] - Executed 5 commands for 101 milliseconds
+[2024-Aug-30 12:53:02] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:06] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:06] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:06] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:06] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:06] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:06] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:06] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:06] [debug] [ Client] - open
+[2024-Aug-30 12:53:06] [debug] [ Client] - start
+[2024-Aug-30 12:53:06] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 450a4913-b42d-46fa-8f5d-a8c8dea3a7f4.
+[2024-Aug-30 12:53:06] [trace] [ Client] - Command open executed for 38 milliseconds with result 0
+[2024-Aug-30 12:53:06] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:06] [debug] [ Client] - config
+[2024-Aug-30 12:53:06] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:06] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:06] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:06] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:06] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:06] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:06] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:06] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:06] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:06] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:06] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:06] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 12:53:06] [trace] [ Client] - Command config executed for 16 milliseconds with result 0
+[2024-Aug-30 12:53:06] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:06] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:06] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:06] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:06] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:06] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:06] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:06] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:06] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:06] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:06] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:06] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:06] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:06] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:06] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:06] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:06] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:06] [trace] [ Worker] - Command close executed for 36 milliseconds with result 0
+[2024-Aug-30 12:53:06] [trace] [ Client] - Command close executed for 52 milliseconds with result 0
+[2024-Aug-30 12:53:06] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:06] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:06] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:06] [trace] [ Worker] - Executed 5 commands for 45 milliseconds
+[2024-Aug-30 12:53:06] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:06] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:06] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:06] [trace] [ Client] - Executed 5 commands for 121 milliseconds
+[2024-Aug-30 12:53:06] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:19] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:19] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:19] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:19] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:19] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:19] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:19] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:19] [debug] [ Client] - open
+[2024-Aug-30 12:53:19] [debug] [ Client] - start
+[2024-Aug-30 12:53:19] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 82d7e261-ced4-4ee4-9707-79e2ddd1cfec.
+[2024-Aug-30 12:53:19] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:19] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:19] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:19] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:19] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:19] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:19] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:19] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:19] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:19] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:19] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:19] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:19] [trace] [ Worker] - Command open executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:19] [trace] [ Client] - Command open executed for 46 milliseconds with result 0
+[2024-Aug-30 12:53:19] [debug] [ Client] - config
+[2024-Aug-30 12:53:19] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:19] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:19] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:19] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:19] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:19] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:19] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:19] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:19] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:19] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:19] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:19] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:19] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:19] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:19] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:19] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:19] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:19] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:19] [trace] [ Client] - Command close executed for 47 milliseconds with result 0
+[2024-Aug-30 12:53:19] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:19] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:19] [trace] [ Worker] - Command close executed for 31 milliseconds with result 0
+[2024-Aug-30 12:53:19] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:19] [trace] [ Worker] - Executed 5 commands for 41 milliseconds
+[2024-Aug-30 12:53:19] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:19] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:19] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:19] [trace] [ Client] - Executed 5 commands for 123 milliseconds
+[2024-Aug-30 12:53:19] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:21] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:21] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:21] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:21] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:21] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:21] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:21] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:21] [debug] [ Client] - open
+[2024-Aug-30 12:53:21] [debug] [ Client] - start
+[2024-Aug-30 12:53:21] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 09df6783-485d-41e3-af58-466acd89e982.
+[2024-Aug-30 12:53:21] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:21] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:21] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:21] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:21] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:21] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:21] [trace] [ Client] - Command open executed for 34 milliseconds with result 0
+[2024-Aug-30 12:53:21] [debug] [ Client] - config
+[2024-Aug-30 12:53:21] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:21] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:21] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:21] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:21] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:21] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:21] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:21] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:21] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 12:53:21] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:21] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:21] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:21] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:21] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:21] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:21] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:21] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:21] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:21] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:21] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:21] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:21] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:21] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:21] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:21] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:21] [trace] [ Worker] - Command close executed for 32 milliseconds with result 0
+[2024-Aug-30 12:53:21] [trace] [ Client] - Command close executed for 49 milliseconds with result 0
+[2024-Aug-30 12:53:21] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:21] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:21] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:21] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:21] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:21] [trace] [ Client] - Executed 5 commands for 113 milliseconds
+[2024-Aug-30 12:53:21] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:22] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:22] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:22] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:22] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:22] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:22] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:22] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:22] [debug] [ Client] - open
+[2024-Aug-30 12:53:22] [debug] [ Client] - start
+[2024-Aug-30 12:53:23] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 7c9d2752-dfc2-4186-b55c-034ed492d343.
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:23] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:23] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:23] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:23] [trace] [ Client] - Command open executed for 40 milliseconds with result 0
+[2024-Aug-30 12:53:23] [debug] [ Client] - config
+[2024-Aug-30 12:53:23] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:23] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:23] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:23] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:23] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:23] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:23] [trace] [ Worker] - Command open executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:23] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:23] [trace] [ Worker] - Command config executed for 6 milliseconds with result 0
+[2024-Aug-30 12:53:23] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:23] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:23] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:23] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:23] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:23] [trace] [ Worker] - Command close executed for 32 milliseconds with result 0
+[2024-Aug-30 12:53:23] [trace] [ Client] - Command close executed for 48 milliseconds with result 0
+[2024-Aug-30 12:53:23] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:23] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:23] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:23] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:23] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:23] [trace] [ Client] - Executed 5 commands for 118 milliseconds
+[2024-Aug-30 12:53:23] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:23] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:23] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:23] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:23] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:23] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:23] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:23] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:23] [debug] [ Client] - open
+[2024-Aug-30 12:53:23] [debug] [ Client] - start
+[2024-Aug-30 12:53:23] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 124970fc-38cd-4350-ac93-842b5c029812.
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:23] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:23] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:23] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:23] [trace] [ Client] - Command open executed for 36 milliseconds with result 0
+[2024-Aug-30 12:53:23] [debug] [ Client] - config
+[2024-Aug-30 12:53:23] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:23] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:23] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:23] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:23] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 12:53:23] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:23] [trace] [ Worker] - Command config executed for 5 milliseconds with result 0
+[2024-Aug-30 12:53:23] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:23] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:23] [trace] [ Client] - Command enum_emu_con_info executed for 14 milliseconds with result 0
+[2024-Aug-30 12:53:23] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:23] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:23] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:23] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:23] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:23] [trace] [ Worker] - Command close executed for 31 milliseconds with result 0
+[2024-Aug-30 12:53:23] [trace] [ Client] - Command close executed for 48 milliseconds with result 0
+[2024-Aug-30 12:53:23] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:23] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:24] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:24] [trace] [ Worker] - Executed 5 commands for 41 milliseconds
+[2024-Aug-30 12:53:24] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:24] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:24] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:24] [trace] [ Client] - Executed 5 commands for 113 milliseconds
+[2024-Aug-30 12:53:24] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:24] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:24] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:24] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:24] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:24] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:24] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:24] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:24] [debug] [ Client] - open
+[2024-Aug-30 12:53:24] [debug] [ Client] - start
+[2024-Aug-30 12:53:24] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 592feb3d-a748-42cf-97a8-f6a661026621.
+[2024-Aug-30 12:53:24] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:24] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:24] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:24] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:24] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:24] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:24] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:24] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:24] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:24] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:24] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:24] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:24] [trace] [ Worker] - Command open executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:24] [trace] [ Client] - Command open executed for 40 milliseconds with result 0
+[2024-Aug-30 12:53:24] [debug] [ Client] - config
+[2024-Aug-30 12:53:24] [trace] [ Client] - Command config executed for 13 milliseconds with result 0
+[2024-Aug-30 12:53:24] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:24] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:24] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:24] [trace] [ Worker] - Command config executed for 5 milliseconds with result 0
+[2024-Aug-30 12:53:24] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:24] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:24] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:24] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:24] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:24] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:24] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:24] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:24] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:24] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:24] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:24] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:24] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:24] [trace] [ Client] - Command close executed for 32 milliseconds with result 0
+[2024-Aug-30 12:53:24] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:24] [trace] [ Worker] - Command close executed for 16 milliseconds with result 0
+[2024-Aug-30 12:53:24] [trace] [ Client] - Command terminate executed for 31 milliseconds with result 0
+[2024-Aug-30 12:53:24] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:24] [trace] [ Worker] - Executed 5 commands for 27 milliseconds
+[2024-Aug-30 12:53:24] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:24] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:24] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:24] [trace] [ Client] - Executed 5 commands for 131 milliseconds
+[2024-Aug-30 12:53:24] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:25] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:25] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:25] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:25] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:25] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:25] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:25] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:25] [debug] [ Client] - open
+[2024-Aug-30 12:53:25] [debug] [ Client] - start
+[2024-Aug-30 12:53:25] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 1f181d18-b71f-4d54-8526-f7b0bbbb892d.
+[2024-Aug-30 12:53:25] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:25] [trace] [ Client] - Command open executed for 35 milliseconds with result 0
+[2024-Aug-30 12:53:25] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:25] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:25] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:25] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:25] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:25] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:25] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:25] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:25] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:25] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:25] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:25] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 12:53:25] [debug] [ Client] - config
+[2024-Aug-30 12:53:25] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:25] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:25] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:25] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:25] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:25] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:25] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:25] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:25] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:25] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:25] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:25] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:25] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:25] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:25] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:25] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:25] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:25] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:25] [trace] [ Client] - Command close executed for 48 milliseconds with result 0
+[2024-Aug-30 12:53:25] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:25] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:25] [trace] [ Worker] - Command close executed for 31 milliseconds with result 0
+[2024-Aug-30 12:53:25] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:25] [trace] [ Worker] - Executed 5 commands for 40 milliseconds
+[2024-Aug-30 12:53:25] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:25] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:25] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:25] [trace] [ Client] - Executed 5 commands for 113 milliseconds
+[2024-Aug-30 12:53:25] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:26] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:26] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:26] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:26] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:26] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:26] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:26] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:26] [debug] [ Client] - open
+[2024-Aug-30 12:53:26] [debug] [ Client] - start
+[2024-Aug-30 12:53:26] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 44d3d8f0-f788-4e27-ae2f-1ad767d84512.
+[2024-Aug-30 12:53:26] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:26] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:26] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:26] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:26] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:26] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:26] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:26] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:26] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:26] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:26] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:26] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:26] [trace] [ Worker] - Command open executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:26] [trace] [ Client] - Command open executed for 52 milliseconds with result 0
+[2024-Aug-30 12:53:26] [debug] [ Client] - config
+[2024-Aug-30 12:53:26] [trace] [ Client] - Command config executed for 14 milliseconds with result 0
+[2024-Aug-30 12:53:26] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:26] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:26] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:26] [trace] [ Worker] - Command config executed for 6 milliseconds with result 0
+[2024-Aug-30 12:53:26] [trace] [ Client] - Command enum_emu_con_info executed for 14 milliseconds with result 0
+[2024-Aug-30 12:53:26] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:26] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:26] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:26] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:26] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:26] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:26] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:26] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:26] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:26] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:26] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:26] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:26] [trace] [ Client] - Command close executed for 31 milliseconds with result 0
+[2024-Aug-30 12:53:26] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:26] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:26] [trace] [ Worker] - Command close executed for 16 milliseconds with result 0
+[2024-Aug-30 12:53:26] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:26] [trace] [ Worker] - Executed 5 commands for 28 milliseconds
+[2024-Aug-30 12:53:26] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:26] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:26] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:26] [trace] [ Client] - Executed 5 commands for 111 milliseconds
+[2024-Aug-30 12:53:26] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:27] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:27] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:27] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:27] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:27] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:27] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:27] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:27] [debug] [ Client] - open
+[2024-Aug-30 12:53:27] [debug] [ Client] - start
+[2024-Aug-30 12:53:27] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence eb2c276a-3a75-4979-9a1f-a9a7f3745049.
+[2024-Aug-30 12:53:27] [trace] [ Client] - Command open executed for 33 milliseconds with result 0
+[2024-Aug-30 12:53:27] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:27] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:27] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:27] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:27] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:27] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:27] [debug] [ Client] - config
+[2024-Aug-30 12:53:27] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:27] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:27] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:27] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:27] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:27] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:27] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 12:53:27] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:27] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:27] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:27] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:27] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:27] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:27] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:27] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:27] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:27] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:27] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:27] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:27] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:27] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:27] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:27] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:27] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:27] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:27] [trace] [ Client] - Command close executed for 48 milliseconds with result 0
+[2024-Aug-30 12:53:27] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:27] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:27] [trace] [ Worker] - Command close executed for 31 milliseconds with result 0
+[2024-Aug-30 12:53:27] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:27] [trace] [ Worker] - Executed 5 commands for 40 milliseconds
+[2024-Aug-30 12:53:27] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:27] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:27] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:27] [trace] [ Client] - Executed 5 commands for 111 milliseconds
+[2024-Aug-30 12:53:27] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:27] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:27] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:27] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:27] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:27] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:27] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:27] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:28] [debug] [ Client] - open
+[2024-Aug-30 12:53:28] [debug] [ Client] - start
+[2024-Aug-30 12:53:28] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence fcec39ef-dbf0-4474-ba7d-6327942ffda1.
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:28] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:28] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:28] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:28] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:28] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:28] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:28] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:28] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 12:53:28] [trace] [ Client] - Command open executed for 52 milliseconds with result 0
+[2024-Aug-30 12:53:28] [debug] [ Client] - config
+[2024-Aug-30 12:53:28] [trace] [ Client] - Command config executed for 14 milliseconds with result 0
+[2024-Aug-30 12:53:28] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:28] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:28] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:28] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:28] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:28] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:28] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:28] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:28] [trace] [ Client] - Command close executed for 33 milliseconds with result 0
+[2024-Aug-30 12:53:28] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:28] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:28] [trace] [ Worker] - Command close executed for 16 milliseconds with result 0
+[2024-Aug-30 12:53:28] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:28] [trace] [ Worker] - Executed 5 commands for 25 milliseconds
+[2024-Aug-30 12:53:28] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:28] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:28] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:28] [trace] [ Client] - Executed 5 commands for 114 milliseconds
+[2024-Aug-30 12:53:28] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:28] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:28] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:28] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:28] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:28] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:28] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:28] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:28] [debug] [ Client] - open
+[2024-Aug-30 12:53:28] [debug] [ Client] - start
+[2024-Aug-30 12:53:28] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence fe43f79f-7f06-4560-a25a-e1e1ed25f3d2.
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:28] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:28] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:28] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:28] [trace] [ Client] - Command open executed for 51 milliseconds with result 0
+[2024-Aug-30 12:53:28] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:28] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:28] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:28] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:28] [trace] [ Worker] - Command open executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:28] [debug] [ Client] - config
+[2024-Aug-30 12:53:28] [trace] [ Client] - Command config executed for 14 milliseconds with result 0
+[2024-Aug-30 12:53:28] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:28] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:28] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:28] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:28] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:28] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:28] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:28] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:28] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:28] [trace] [ Worker] - Command close executed for 16 milliseconds with result 0
+[2024-Aug-30 12:53:28] [trace] [ Client] - Command close executed for 33 milliseconds with result 0
+[2024-Aug-30 12:53:28] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:28] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:28] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:28] [trace] [ Worker] - Executed 5 commands for 26 milliseconds
+[2024-Aug-30 12:53:29] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:29] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:29] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:29] [trace] [ Client] - Executed 5 commands for 113 milliseconds
+[2024-Aug-30 12:53:29] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:30] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:30] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:30] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:30] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:30] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:30] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:30] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:30] [debug] [ Client] - open
+[2024-Aug-30 12:53:30] [debug] [ Client] - start
+[2024-Aug-30 12:53:30] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence b542e14f-0814-4fa2-933c-da37c415a0e1.
+[2024-Aug-30 12:53:30] [trace] [ Client] - Command open executed for 35 milliseconds with result 0
+[2024-Aug-30 12:53:30] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:30] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:30] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:30] [debug] [ Client] - config
+[2024-Aug-30 12:53:30] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:30] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:30] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:30] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:30] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:30] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:30] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:30] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:30] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:30] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 12:53:30] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:30] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:30] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:30] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:30] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:30] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:30] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:30] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:30] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:30] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:30] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:30] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:30] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:30] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:30] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:30] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:30] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:30] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:30] [trace] [ Client] - Command close executed for 34 milliseconds with result 0
+[2024-Aug-30 12:53:30] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:30] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:30] [trace] [ Worker] - Command close executed for 31 milliseconds with result 0
+[2024-Aug-30 12:53:30] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:30] [trace] [ Worker] - Executed 5 commands for 40 milliseconds
+[2024-Aug-30 12:53:30] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:30] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:30] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:30] [trace] [ Client] - Executed 5 commands for 99 milliseconds
+[2024-Aug-30 12:53:30] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:31] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:31] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:31] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:31] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:31] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:31] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:31] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:31] [debug] [ Client] - open
+[2024-Aug-30 12:53:31] [debug] [ Client] - start
+[2024-Aug-30 12:53:31] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence a80f606e-12c3-480d-a9ea-84ea180dae9f.
+[2024-Aug-30 12:53:31] [trace] [ Client] - Command open executed for 39 milliseconds with result 0
+[2024-Aug-30 12:53:31] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:31] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:31] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:31] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:31] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:31] [debug] [ Client] - config
+[2024-Aug-30 12:53:31] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:31] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:31] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:31] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:31] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:31] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:31] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:31] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 12:53:31] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:31] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:31] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:31] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:31] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:31] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:31] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:31] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:31] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:31] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:31] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:31] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:31] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:31] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:31] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:31] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:31] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:31] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:31] [trace] [ Client] - Command close executed for 39 milliseconds with result 0
+[2024-Aug-30 12:53:31] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:31] [trace] [ Worker] - Command close executed for 33 milliseconds with result 0
+[2024-Aug-30 12:53:31] [trace] [ Client] - Command terminate executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:31] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:31] [trace] [ Worker] - Executed 5 commands for 42 milliseconds
+[2024-Aug-30 12:53:31] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:31] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:31] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:31] [trace] [ Client] - Executed 5 commands for 123 milliseconds
+[2024-Aug-30 12:53:31] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:32] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:32] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:32] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:32] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:32] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:32] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:32] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:32] [debug] [ Client] - open
+[2024-Aug-30 12:53:32] [debug] [ Client] - start
+[2024-Aug-30 12:53:32] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence e5235785-3f47-46f8-8781-a65a4b9fc44a.
+[2024-Aug-30 12:53:32] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:32] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:32] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:32] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:32] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:32] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:32] [trace] [ Client] - Command open executed for 52 milliseconds with result 0
+[2024-Aug-30 12:53:32] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:32] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:32] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:32] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:32] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:32] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:32] [trace] [ Worker] - Command open executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:32] [debug] [ Client] - config
+[2024-Aug-30 12:53:32] [trace] [ Client] - Command config executed for 14 milliseconds with result 0
+[2024-Aug-30 12:53:32] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:32] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:32] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:32] [trace] [ Worker] - Command config executed for 6 milliseconds with result 0
+[2024-Aug-30 12:53:32] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:32] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:32] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:32] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:32] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:32] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:32] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:32] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:32] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:32] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:32] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:32] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:32] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:32] [trace] [ Client] - Command close executed for 48 milliseconds with result 0
+[2024-Aug-30 12:53:32] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:32] [trace] [ Worker] - Command close executed for 32 milliseconds with result 0
+[2024-Aug-30 12:53:32] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:32] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:32] [trace] [ Worker] - Executed 5 commands for 44 milliseconds
+[2024-Aug-30 12:53:32] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:32] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:32] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:32] [trace] [ Client] - Executed 5 commands for 129 milliseconds
+[2024-Aug-30 12:53:32] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:33] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:33] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:33] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:33] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:33] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:33] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:33] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:33] [debug] [ Client] - open
+[2024-Aug-30 12:53:33] [debug] [ Client] - start
+[2024-Aug-30 12:53:33] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence bc84e3b4-a1d8-4776-ae0f-86bf5f4f4350.
+[2024-Aug-30 12:53:33] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:33] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:33] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:33] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:33] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:33] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:33] [trace] [ Client] - Command open executed for 31 milliseconds with result 0
+[2024-Aug-30 12:53:33] [debug] [ Client] - config
+[2024-Aug-30 12:53:33] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:33] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:33] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:33] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:33] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:33] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:33] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:33] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 12:53:33] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:33] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:33] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:33] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:33] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:33] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:33] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:33] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:33] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:33] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:33] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:33] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:33] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:33] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:33] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:33] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:33] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:33] [trace] [ Client] - Command close executed for 48 milliseconds with result 0
+[2024-Aug-30 12:53:33] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:33] [trace] [ Worker] - Command close executed for 32 milliseconds with result 0
+[2024-Aug-30 12:53:33] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:33] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:33] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:33] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:33] [trace] [ Client] - Executed 5 commands for 109 milliseconds
+[2024-Aug-30 12:53:33] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:34] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:34] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:34] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:34] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:34] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:34] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:34] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:34] [debug] [ Client] - open
+[2024-Aug-30 12:53:34] [debug] [ Client] - start
+[2024-Aug-30 12:53:34] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence cf93eb16-7213-499d-acd0-5f57d14029cc.
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:35] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:35] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:35] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:35] [trace] [ Client] - Command open executed for 52 milliseconds with result 0
+[2024-Aug-30 12:53:35] [debug] [ Client] - config
+[2024-Aug-30 12:53:35] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:35] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:35] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:35] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:35] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:35] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:35] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 12:53:35] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:35] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:35] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:35] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:35] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:35] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:35] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:35] [trace] [ Client] - Command close executed for 55 milliseconds with result 0
+[2024-Aug-30 12:53:35] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:35] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:35] [trace] [ Worker] - Command close executed for 38 milliseconds with result 0
+[2024-Aug-30 12:53:35] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:35] [trace] [ Worker] - Executed 5 commands for 47 milliseconds
+[2024-Aug-30 12:53:35] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:35] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:35] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:35] [trace] [ Client] - Executed 5 commands for 137 milliseconds
+[2024-Aug-30 12:53:35] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:35] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:35] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:35] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:35] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:35] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:35] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:35] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:35] [debug] [ Client] - open
+[2024-Aug-30 12:53:35] [debug] [ Client] - start
+[2024-Aug-30 12:53:35] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 2db2cfcf-1c2d-4b1e-942b-e3deb8c30231.
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:35] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:35] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:35] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:35] [trace] [ Client] - Command open executed for 49 milliseconds with result 0
+[2024-Aug-30 12:53:35] [debug] [ Client] - config
+[2024-Aug-30 12:53:35] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:35] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:35] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:35] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:35] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 12:53:35] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:35] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:35] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:35] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:35] [trace] [ Client] - Command enum_emu_con_info executed for 14 milliseconds with result 0
+[2024-Aug-30 12:53:35] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:35] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:35] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:35] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:35] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:35] [trace] [ Client] - Command close executed for 49 milliseconds with result 0
+[2024-Aug-30 12:53:35] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:35] [trace] [ Worker] - Command close executed for 31 milliseconds with result 0
+[2024-Aug-30 12:53:35] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:35] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:35] [trace] [ Worker] - Executed 5 commands for 40 milliseconds
+[2024-Aug-30 12:53:35] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:35] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:35] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:35] [trace] [ Client] - Executed 5 commands for 127 milliseconds
+[2024-Aug-30 12:53:35] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:36] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:36] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:36] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:36] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:36] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:36] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:36] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:36] [debug] [ Client] - open
+[2024-Aug-30 12:53:36] [debug] [ Client] - start
+[2024-Aug-30 12:53:36] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 7d23eaa5-206b-4e8a-98e4-e2d011ea646a.
+[2024-Aug-30 12:53:36] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:36] [trace] [ Client] - Command open executed for 41 milliseconds with result 0
+[2024-Aug-30 12:53:36] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:36] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:36] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:36] [debug] [ Client] - config
+[2024-Aug-30 12:53:36] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:36] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:36] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:36] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:36] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:36] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:36] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:36] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:36] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 12:53:36] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:36] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:36] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:36] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:36] [trace] [ Worker] - Command config executed for 5 milliseconds with result 0
+[2024-Aug-30 12:53:36] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:36] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:36] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:36] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:36] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:36] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:36] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:36] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:36] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:36] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:36] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:36] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:36] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:36] [trace] [ Client] - Command close executed for 49 milliseconds with result 0
+[2024-Aug-30 12:53:36] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:36] [trace] [ Worker] - Command close executed for 31 milliseconds with result 0
+[2024-Aug-30 12:53:36] [trace] [ Client] - Command terminate executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:36] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:36] [trace] [ Worker] - Executed 5 commands for 41 milliseconds
+[2024-Aug-30 12:53:36] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:36] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:36] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:36] [trace] [ Client] - Executed 5 commands for 135 milliseconds
+[2024-Aug-30 12:53:36] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:36] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:36] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:36] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:36] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:36] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:36] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:36] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:36] [debug] [ Client] - open
+[2024-Aug-30 12:53:36] [debug] [ Client] - start
+[2024-Aug-30 12:53:37] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 00f7740c-1f67-419a-8b68-5faccfb41f1f.
+[2024-Aug-30 12:53:37] [trace] [ Client] - Command open executed for 34 milliseconds with result 0
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:37] [debug] [ Client] - config
+[2024-Aug-30 12:53:37] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:37] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:37] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:37] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:37] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:37] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:37] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:37] [trace] [ Worker] - Command open executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:37] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:37] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:37] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:37] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:37] [trace] [ Worker] - Command config executed for 5 milliseconds with result 0
+[2024-Aug-30 12:53:37] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:37] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:37] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:37] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:37] [trace] [ Client] - Command close executed for 47 milliseconds with result 0
+[2024-Aug-30 12:53:37] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:37] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:37] [trace] [ Worker] - Command close executed for 31 milliseconds with result 0
+[2024-Aug-30 12:53:37] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:37] [trace] [ Worker] - Executed 5 commands for 42 milliseconds
+[2024-Aug-30 12:53:37] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:37] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:37] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:37] [trace] [ Client] - Executed 5 commands for 111 milliseconds
+[2024-Aug-30 12:53:37] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:37] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:37] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:37] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:37] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:37] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:37] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:37] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:37] [debug] [ Client] - open
+[2024-Aug-30 12:53:37] [debug] [ Client] - start
+[2024-Aug-30 12:53:37] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence b0cb6355-6cce-4e57-a405-43ea38cff504.
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:37] [trace] [ Client] - Command open executed for 37 milliseconds with result 0
+[2024-Aug-30 12:53:37] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:37] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:37] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:37] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:37] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:37] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:37] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:37] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 12:53:37] [debug] [ Client] - config
+[2024-Aug-30 12:53:37] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:37] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:37] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:37] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:37] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:37] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:37] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:37] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:37] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:37] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:37] [trace] [ Client] - Command close executed for 49 milliseconds with result 0
+[2024-Aug-30 12:53:37] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:37] [trace] [ Worker] - Command close executed for 31 milliseconds with result 0
+[2024-Aug-30 12:53:37] [trace] [ Client] - Command terminate executed for 31 milliseconds with result 0
+[2024-Aug-30 12:53:37] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:37] [trace] [ Worker] - Executed 5 commands for 40 milliseconds
+[2024-Aug-30 12:53:37] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:37] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:37] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:37] [trace] [ Client] - Executed 5 commands for 147 milliseconds
+[2024-Aug-30 12:53:37] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:37] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:37] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:37] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:37] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:37] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:37] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:37] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:38] [debug] [ Client] - open
+[2024-Aug-30 12:53:38] [debug] [ Client] - start
+[2024-Aug-30 12:53:38] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence b7a6cf67-330a-4c2e-b61c-0d09724946da.
+[2024-Aug-30 12:53:38] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:38] [trace] [ Client] - Command open executed for 40 milliseconds with result 0
+[2024-Aug-30 12:53:38] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:38] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:38] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:38] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:38] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:38] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:38] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:38] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:38] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:38] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:38] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:38] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 12:53:38] [debug] [ Client] - config
+[2024-Aug-30 12:53:38] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:38] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:38] [trace] [ Client] - Command enum_emu_con_info executed for 14 milliseconds with result 0
+[2024-Aug-30 12:53:38] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:38] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:38] [trace] [ Worker] - Command config executed for 5 milliseconds with result 0
+[2024-Aug-30 12:53:38] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:38] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:38] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:38] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:38] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:38] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:38] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:38] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:38] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:38] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:38] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:38] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:38] [trace] [ Client] - Command close executed for 48 milliseconds with result 0
+[2024-Aug-30 12:53:38] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:38] [trace] [ Worker] - Command close executed for 31 milliseconds with result 0
+[2024-Aug-30 12:53:38] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:38] [trace] [ Client] - Command terminate executed for 10 milliseconds with result 0
+[2024-Aug-30 12:53:38] [trace] [ Worker] - Executed 5 commands for 41 milliseconds
+[2024-Aug-30 12:53:38] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:38] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:38] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:38] [trace] [ Client] - Executed 5 commands for 127 milliseconds
+[2024-Aug-30 12:53:38] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:43] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:43] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --program c:\ncs\v2.6.1\zephyr\samples\basic\central_node\build\zephyr\zephyr.hex --chiperase --verify -f NRF52 --snr 900024181 --log 
+[2024-Aug-30 12:53:43] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 12:53:43] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 12:53:43] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 12:53:43] [ info] Library loaded, loading member functions.
+[2024-Aug-30 12:53:43] [ info] Member functions succesfully loaded.
+[2024-Aug-30 12:53:43] [debug] [ Client] - open
+[2024-Aug-30 12:53:43] [debug] [ Client] - start
+[2024-Aug-30 12:53:43] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 783bc490-1689-47ea-9214-3b638a264eda.
+[2024-Aug-30 12:53:43] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 12:53:43] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 12:53:43] [debug] [  nRF52] - open
+[2024-Aug-30 12:53:43] [debug] [  nRF52] - just_check_family
+[2024-Aug-30 12:53:43] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 12:53:43] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 12:53:43] [trace] [ Client] - Command open executed for 42 milliseconds with result 0
+[2024-Aug-30 12:53:43] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 12:53:43] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 12:53:43] [debug] [ Client] - config
+[2024-Aug-30 12:53:43] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 12:53:43] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 12:53:43] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 12:53:43] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 12:53:43] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 12:53:43] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 12:53:43] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 12:53:43] [trace] [ Client] - Command enum_emu_con_info executed for 16 milliseconds with result 0
+[2024-Aug-30 12:53:43] [debug] [  nRF52] - config
+[2024-Aug-30 12:53:43] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 12:53:43] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Aug-30 12:53:43] [debug] [  nRF52] - enum_emu_con_info
+[2024-Aug-30 12:53:43] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:43] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 12:53:43] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:43] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 12:53:43] [debug] [  nRF52] - close
+[2024-Aug-30 12:53:43] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:43] [debug] [SeggerBackend] - close
+[2024-Aug-30 12:53:43] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 12:53:43] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 12:53:43] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 12:53:43] [debug] [  nRF52] - nRF family DLL closed
+[2024-Aug-30 12:53:43] [trace] [ Client] - Command close executed for 32 milliseconds with result 0
+[2024-Aug-30 12:53:43] [debug] [ Client] - terminate
+[2024-Aug-30 12:53:43] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:43] [trace] [ Worker] - Command close executed for 16 milliseconds with result 0
+[2024-Aug-30 12:53:43] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 12:53:43] [trace] [ Worker] - Executed 5 commands for 25 milliseconds
+[2024-Aug-30 12:53:43] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:43] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 12:53:43] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 12:53:43] [trace] [ Client] - Executed 5 commands for 105 milliseconds
+[2024-Aug-30 12:53:43] [debug] [ Client] - terminate
+[2024-Aug-30 13:01:02] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 13:01:02] [debug] C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.exe --recover --log 
+[2024-Aug-30 13:01:02] [debug] nrfjprog version 10.24.2 external
+[2024-Aug-30 13:01:02] [debug] --------------------------------------------------------------------------------
+[2024-Aug-30 13:01:02] [ info] Load library at C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\nrfjprog.dll.
+[2024-Aug-30 13:01:02] [ info] Library loaded, loading member functions.
+[2024-Aug-30 13:01:02] [ info] Member functions succesfully loaded.
+[2024-Aug-30 13:01:02] [debug] [ Client] - open
+[2024-Aug-30 13:01:02] [debug] [ Client] - start
+[2024-Aug-30 13:01:02] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence ad8d0f58-ec26-403d-91bc-92dc3994aba5.
+[2024-Aug-30 13:01:02] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Aug-30 13:01:02] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Aug-30 13:01:02] [debug] [  nRFXX] - open
+[2024-Aug-30 13:01:02] [debug] [  nRFXX] - just_check_family
+[2024-Aug-30 13:01:02] [debug] [SeggerBackend] - open_dll
+[2024-Aug-30 13:01:02] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Aug-30 13:01:02] [trace] [ Client] - Command open executed for 41 milliseconds with result 0
+[2024-Aug-30 13:01:02] [debug] [ Client] - config
+[2024-Aug-30 13:01:02] [trace] [ Client] - Command config executed for 15 milliseconds with result 0
+[2024-Aug-30 13:01:02] [debug] [ Client] - enum_emu_snr
+[2024-Aug-30 13:01:02] [ info] [SeggerBackend] - Load library at C:\Program Files\SEGGER\JLink_V788j\JLink_x64.dll.
+[2024-Aug-30 13:01:02] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Aug-30 13:01:02] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Aug-30 13:01:02] [debug] [SeggerBackend] - Set batch mode
+[2024-Aug-30 13:01:02] [debug] [SeggerBackend] - dll_version
+[2024-Aug-30 13:01:02] [ info] [SeggerBackend] - Segger dll version 7.88.j loaded.
+[2024-Aug-30 13:01:02] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Aug-30 13:01:02] [debug] [  nRFXX] - config
+[2024-Aug-30 13:01:02] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Aug-30 13:01:02] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Aug-30 13:01:02] [debug] [  nRFXX] - enum_emu_con_info
+[2024-Aug-30 13:01:02] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 13:01:02] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Aug-30 13:01:02] [trace] [ Client] - Command enum_emu_con_info executed for 15 milliseconds with result 0
+[2024-Aug-30 13:01:02] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 13:01:02] [trace] [ Worker] - Command enum_emu_con_info executed for 2 milliseconds with result 0
+[2024-Aug-30 13:01:02] [debug] [  nRFXX] - close
+[2024-Aug-30 13:01:02] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 13:01:02] [debug] [SeggerBackend] - close
+[2024-Aug-30 13:01:02] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Aug-30 13:01:02] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Aug-30 13:01:02] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Aug-30 13:01:02] [debug] [  nRFXX] - nRF family DLL closed
+[2024-Aug-30 13:01:02] [trace] [ Client] - Command close executed for 50 milliseconds with result 0
+[2024-Aug-30 13:01:02] [debug] [ Client] - terminate
+[2024-Aug-30 13:01:02] [trace] [ Worker] - Command close executed for 32 milliseconds with result 0
+[2024-Aug-30 13:01:02] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Aug-30 13:01:02] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 13:01:02] [debug] [ Client] - Worker process exited with code: 0
+[2024-Aug-30 13:01:02] [debug] [ Client] - Child process terminated with result 0
+[2024-Aug-30 13:01:02] [trace] [ Client] - Executed 5 commands for 121 milliseconds
+[2024-Aug-30 13:01:02] [debug] [ Client] - terminate
